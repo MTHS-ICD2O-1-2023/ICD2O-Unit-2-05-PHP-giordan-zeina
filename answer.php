@@ -28,20 +28,23 @@
           <img src="./images/income_tax.jpg" alt="income image" width="250" />
         </div>
         <div class="page-content-php">
-          <div id="salary">
+          <div name="salary">
             <?php
             $hoursWorked = $_GET["hours-worked"];
             $hourlyWage = $_GET["hourly-wage"];
+            $TAX_RATE = 0.18;
 
             // process
             $salary = $hoursWorked * $hourlyWage;
+            $government = $salary * $TAX_RATE;
 
             // output
-            echo "Your pay will be: " . $salary.toFixed(2);
+            echo "Your pay will be: " . $salary. round(2);
             echo "<br />";
             echo "<br />";
-            echo "The area of the rectangle is " . $area . " cm².";
+            echo "The government will take: " . $government . round(2);
             echo "<br />";
+
             ?>
           </div>
         </div>
