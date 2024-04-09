@@ -32,8 +32,9 @@
 
 .right-image {
   height: auto;
-  width: 500px;
+  width: 200px;
   float: right;
+  padding-right: 350pt;
 }
 
 body {
