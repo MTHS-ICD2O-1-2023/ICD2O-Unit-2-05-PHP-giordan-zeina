@@ -30,6 +30,7 @@
         </div>
         <br />
         <div class="page-content">Please enter your employment information.</div>
+        <form action="answer.php" method="POST">
         <div class="mdl-textfield mdl-js-textfield">
           <!-- input pattern attribute -->
           <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="hours-worked" />
