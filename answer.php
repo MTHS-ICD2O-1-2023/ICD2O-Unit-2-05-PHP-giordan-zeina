@@ -25,7 +25,7 @@
       </header>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./images/income_tax.jpg" alt="income image" width="200" />
+          <img src="./images/income_tax.jpg" alt="income image" width="50" />
         </div>
         <div class="page-content-php">
           <div name="salary">
