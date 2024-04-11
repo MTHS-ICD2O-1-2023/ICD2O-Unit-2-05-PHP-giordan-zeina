@@ -31,10 +31,7 @@
 }
 
 .right-image {
-  height: auto;
-  width: 50px;
   float: right;
-  padding-right: 450pt;
 }
 
 body {

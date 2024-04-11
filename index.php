@@ -28,7 +28,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/income_tax.jpg" alt="Income Tax image" width="50" />
+        <img src="./images/income_tax.jpg" alt="Income Tax image" width="200" />
       </div>
       <br />
       <div class="page-content">Please enter your employment information.</div>
